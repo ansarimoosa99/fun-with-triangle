@@ -1,0 +1,82 @@
+body{
+    margin:0;
+}
+
+/* nav bar */
+nav{
+    height: 2rem;
+    background-color: rgb(19, 19, 54);
+    color: white;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: large;
+}
+
+
+.container{
+    width: 600px;
+    margin:auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding: 0.5rem 0.5rem; 
+    margin: 1rem;
+    /* width: 50%; */
+
+}
+input{
+    margin-left: 1rem;
+    padding: 0.2rem 0.2rem;
+}
+
+button{
+    width:25vh;
+    height: 5vh;
+    margin-left: 4rem;
+    padding: .2rem .2rem;
+    border-radius: .2rem;
+    border: none;
+    font-weight: bold;
+    color: white ;
+    background-color:  rgb(19, 19, 54);
+}
+
+.quiz-container{
+    margin: 2rem;
+}
+
+.question-container{
+background-color: lightslategray;
+padding: 1rem 1rem;
+border-radius: 1rem;
+margin: 1rem;
+border: solid;
+}
+#output,
+#output-msg{
+    font-size:larger ;
+    margin : 1rem;
+}
+
+
+
+
+
+/* footer */
+footer{
+    background-color: rgb(19, 19, 54);
+    color: white;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
