@@ -2,7 +2,7 @@
 
 VanillaJS app, play around with the concepts related to triangle
 1. Area
-2. isTrriangle
+2. isTriangle
 3. Hypotenuse
 4. Quiz
 
